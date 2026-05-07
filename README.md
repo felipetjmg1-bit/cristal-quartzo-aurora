@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663275657112/KPnwaokfqFwUsGSu.png" alt="Cristal de Quartzo Aurora Logo" width="400"/>
-  <h1>Cristal de Quartzo Aurora - Ecossistema Aurora v4.0 BR</h1>
+  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663275657112/QxaUDMUykfUdLuOB.png" alt="Banner Ecossistema Aurora" width="100%"/>
+  <h1>💎 Cristal de Quartzo Aurora - Ecossistema Aurora v4.0 BR 🇧🇷</h1>
   <p><strong>A Primeira Infraestrutura Brasileira de Armazenamento Óptico 5D em Cristal de Quartzo</strong></p>
   <p><em>Soberania de Dados, Segurança Inviolável e Durabilidade Milenar</em></p>
 </div>
@@ -26,10 +26,10 @@ A infraestrutura do Aurora v4.0 BR é dividida em dois níveis de criticidade, g
 
 ## 🚀 Funcionalidades Principais
 
-*   **Armazenamento 5D:** Gravação de dados em cinco dimensões dentro da estrutura cristalina.
-*   **Segurança Física:** Dependência de hardware específico (lasers calibrados) para leitura de dados de alta segurança.
-*   **Soberania de Dados:** Utilização de recursos minerais abundantes no Brasil (Quartzo) para infraestrutura pública.
-*   **Integração com DREX:** Arquitetura preparada para suportar a custódia de ativos digitais soberanos.
+*   **Armazenamento 5D:** Gravação de dados em cinco dimensões dentro da estrutura cristalina. 💾
+*   **Segurança Física:** Dependência de hardware específico (lasers calibrados) para leitura de dados de alta segurança. 🔒
+*   **Soberania de Dados:** Utilização de recursos minerais abundantes no Brasil (Quartzo) para infraestrutura pública. 🇧🇷
+*   **Integração com DREX:** Arquitetura preparada para suportar a custódia de ativos digitais soberanos. 🔗
 
 ## 💻 Estrutura do Projeto (API)
 
@@ -45,7 +45,7 @@ O repositório contém a API de simulação e interface para o sistema de armaze
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/cristal-quartzo-aurora.git
+git clone https://github.com/felipetjmg1-bit/cristal-quartzo-aurora.git
 cd cristal-quartzo-aurora
 
 # Instale as dependências
@@ -59,13 +59,18 @@ Acesse a documentação interativa da API em `http://localhost:8000/docs`.
 
 ## 📈 Validação e Tração
 
-O projeto **Ecossistema Aurora XAI** foi submetido e teve seu recebimento confirmado no **LIFT Lab 2026** (Laboratório de Inovações Financeiras e Tecnológicas), demonstrando o alinhamento da iniciativa com as demandas de inovação do setor financeiro nacional.
+O projeto **Ecossistema Aurora XAI** foi submetido e teve seu recebimento confirmado no **LIFT Lab 2026** (Laboratório de Inovações Financeiras e Tecnológicas), demonstrando o alinhamento da iniciativa com as demandas de inovação do setor financeiro nacional. Além disso, a arquitetura de Fragmentação de Processamento e Tokens de Ação (Aurora DREX) passou por validações técnicas rigorosas, com alertas proativos emitidos pela Impulso Digital para garantir a integridade da persistência de estado distribuído.
 
-Além disso, a arquitetura de Fragmentação de Processamento e Tokens de Ação (Aurora DREX) passou por validações técnicas rigorosas, com alertas proativos emitidos pela Impulso Digital para garantir a integridade da persistência de estado distribuído.
+<div align="center">
+  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663275657112/DfDDtPoBPSXUsaCL.png" alt="Aurora Tech Stack" width="80%"/>
+</div>
 
 ## 🤝 Contato e Parcerias
 
 Para oportunidades de investimento, parcerias estratégicas ou dúvidas técnicas, entre em contato com a equipe da Impulso Digital Soluções em IA.
 
 ---
-*Desenvolvido com orgulho no Brasil 🇧🇷*
+<div align="center">
+  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663275657112/UxmgpyMsOgEewIPr.png" alt="Aurora Logo" width="150"/>
+  <p><em>Construindo um Brasil tecnologicamente forte, independente e soberano.</em></p>
+</div>
