@@ -1,76 +1,71 @@
-<div align="center">
-  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663275657112/QxaUDMUykfUdLuOB.png" alt="Banner Ecossistema Aurora" width="100%"/>
-  <h1>💎 Cristal de Quartzo Aurora - Ecossistema Aurora v4.0 BR 🇧🇷</h1>
-  <p><strong>A Primeira Infraestrutura Brasileira de Armazenamento Óptico 5D em Cristal de Quartzo</strong></p>
-  <p><em>Soberania de Dados, Segurança Inviolável e Durabilidade Milenar</em></p>
-</div>
+![Status: Experimental](https://img.shields.io/badge/Status-Experimental-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/cristal-quartzo-aurora)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
----
+# Cristal de Quartzo Aurora — API Demonstrativa
 
-## 🌟 Visão Executiva para Investidores
+## Visão geral
 
-O projeto **Cristal de Quartzo Aurora** (versão 4.0 BR) representa um marco na tecnologia de armazenamento de dados no Brasil e no mundo. Desenvolvido pela **Impulso Digital Soluções em IA**, sob a liderança de Felipe Marcos de Abreu Aquino, o projeto introduz uma arquitetura revolucionária de armazenamento óptico 5D, validada tecnicamente e projetada para garantir a soberania nacional sobre dados críticos.
+O README apresenta o projeto como infraestrutura brasileira de armazenamento óptico 5D em cristal de quartzo (Aurora v4.0 BR), com alegações de segurança, soberania de dados e aplicações bancárias/públicas. O que o código público permite verificar é mais restrito: uma pequena API FastAPI que simula ingestão, recuperação e status; não há implementação visível de gravação/leitura óptica ou armazenamento persistente em cristal.
 
-Nossa tecnologia resolve o problema da volatilidade e vulnerabilidade dos data centers tradicionais, oferecendo uma solução de persistência de estado distribuído imune a pulsos eletromagnéticos e com estabilidade térmica superior a 1.200°C.
+## Objetivo e valor
 
-### 🛡️ Arquitetura de Materiais (Validação Técnica)
+**Problema/escopo:** API FastAPI de simulação para ingestão, recuperação e status no conceito de armazenamento Cristal de Quartzo Aurora.
 
-A infraestrutura do Aurora v4.0 BR é dividida em dois níveis de criticidade, garantindo segurança por obscuridade física e escalabilidade econômica:
+**Valor verificável hoje:** o repositório torna explícitos seus artefatos, interfaces e limitações para que mantenedores e contribuidores possam avaliar o que existe sem confundir demonstração, proposta e produção.
 
-| Nível de Criticidade | Substrato Utilizado | Objetivo Estratégico | Requisitos Técnicos |
-| :--- | :--- | :--- | :--- |
-| **Custódia Bancária (High-Security Vault)** | Sílica Vítrea Sintética (Suprasil) dopada com Érbio ou Lantânio | Criar uma "chave física" onde os dados são invisíveis sem o laser calibrado para o dopante específico. Proteção de chaves privadas e ativos do DREX. | Estabilidade térmica > 1.200°C, imunidade total a EMP. |
-| **Infraestrutura Pública (Brasil e Mundo)** | Quartzo Natural purificado (abundante em MG/GO) | Armazenamento massivo escalável e de baixo custo para dados civis e governamentais. | Durabilidade de 13.8 bilhões de anos, padrão de leitura por microscopia óptica. |
+## Arquitetura e tecnologias
 
-> "A gravação 5D em matriz de quartzo comum já garante 13.8 bilhões de anos de durabilidade, o que é mais do que suficiente para a soberania de dados civil." — *Felipe Marcos de Abreu Aquino, CEO Impulso Digital*
+Estrutura observável: README.md, requirements.txt e src/api/main.py. O módulo define a aplicação FastAPI, modelos Pydantic e três rotas HTTP: POST /ingest_data, POST /retrieve_data e GET /system_status. Não há camadas adicionais, persistência, hardware ou arquitetura de armazenamento físico documentados/implementados nos arquivos examinados; portanto, a arquitetura do sistema 5D alegado não está documentada no código público.
 
-## 🚀 Funcionalidades Principais
-
-*   **Armazenamento 5D:** Gravação de dados em cinco dimensões dentro da estrutura cristalina. 💾
-*   **Segurança Física:** Dependência de hardware específico (lasers calibrados) para leitura de dados de alta segurança. 🔒
-*   **Soberania de Dados:** Utilização de recursos minerais abundantes no Brasil (Quartzo) para infraestrutura pública. 🇧🇷
-*   **Integração com DREX:** Arquitetura preparada para suportar a custódia de ativos digitais soberanos. 🔗
-
-## 💻 Estrutura do Projeto (API)
-
-O repositório contém a API de simulação e interface para o sistema de armazenamento Aurora.
-
-### Pré-requisitos
-
-*   Python 3.11+
-*   FastAPI
-*   Uvicorn
-
-### Instalação e Execução
-
-```bash
-# Clone o repositório
-git clone https://github.com/felipetjmg1-bit/cristal-quartzo-aurora.git
-cd cristal-quartzo-aurora
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Execute a API
-uvicorn src.api.main:app --reload
+```mermaid
+flowchart LR
+  C[Cliente HTTP] --> A[Rotas FastAPI]
+  A --> S[Respostas simuladas em memória]
+  S --> C
 ```
 
-Acesse a documentação interativa da API em `http://localhost:8000/docs`.
+- Python (única linguagem indicada pela API de linguagens do GitHub).
+- FastAPI 0.103.1, Uvicorn 0.23.2 e Pydantic 2.4.0, conforme requirements.txt.
+- O README declara Python 3.11+ como pré-requisito; esse requisito não é configurado por manifesto de versão visível.
 
-## 📈 Validação e Tração
+## Início rápido
 
-O projeto **Ecossistema Aurora XAI** foi submetido e teve seu recebimento confirmado no **LIFT Lab 2026** (Laboratório de Inovações Financeiras e Tecnológicas), demonstrando o alinhamento da iniciativa com as demandas de inovação do setor financeiro nacional. Além disso, a arquitetura de Fragmentação de Processamento e Tokens de Ação (Aurora DREX) passou por validações técnicas rigorosas, com alertas proativos emitidos pela Impulso Digital para garantir a integridade da persistência de estado distribuído.
+Os comandos abaixo refletem instruções, manifestos ou pontos de entrada presentes no repositório. Dependências externas, segredos e serviços estão indicados quando aplicável; a presença de um comando não equivale a uma execução validada.
 
-<div align="center">
-  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663275657112/DfDDtPoBPSXUsaCL.png" alt="Aurora Tech Stack" width="80%"/>
-</div>
+1. O README documenta clonar o repositório: git clone https://github.com/felipetjmg1-bit/cristal-quartzo-aurora.git && cd cristal-quartzo-aurora.
+2. O README documenta instalar dependências com pip install -r requirements.txt.
+3. O README documenta iniciar a API com uvicorn src.api.main:app --reload e indica a interface Swagger em http://localhost:8000/docs.
+4. Estes são comandos documentados no README, não uma execução/teste independente desta auditoria. Não há comando de teste visível.
 
-## 🤝 Contato e Parcerias
 
-Para oportunidades de investimento, parcerias estratégicas ou dúvidas técnicas, entre em contato com a equipe da Impulso Digital Soluções em IA.
+## Exemplo de uso
 
----
-<div align="center">
-  <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663275657112/UxmgpyMsOgEewIPr.png" alt="Aurora Logo" width="150"/>
-  <p><em>Construindo um Brasil tecnologicamente forte, independente e soberano.</em></p>
-</div>
+A API disponibiliza `GET /system_status`. Com o servidor local iniciado:
+
+```bash
+curl http://localhost:8000/system_status
+```
+
+A rota retorna valores definidos no código; não verifica hardware nem armazenamento físico.
+
+## Estado e limitações
+
+**Maturidade indicada:** Experimental.
+
+- O endpoint de ingestão apenas verifica um prefixo para o nível bank_vault, calcula um hash e imprime uma mensagem; não grava dados. A recuperação também é explicitamente simulada e não retorna os dados enviados.
+- Há aparente inconsistência na proteção de recuperação: o código procura a string bank_vault dentro do data_id, mas os IDs gerados são apenas aurora_data_ seguido do hash; portanto, a verificação de access_key não parece ser acionada para IDs gerados por ingestão.
+- O status declara estabilidade térmica e imunidade eletromagnética em valores fixos no código, não medidos por sistema físico.
+- Não apresentar os comandos do README como prova de execução ou a API como armazenamento óptico funcional; não inferir testes, segurança, persistência ou validação que não estejam demonstrados.
+
+## Contribuição
+
+Leia [CONTRIBUTING.md](CONTRIBUTING.md) antes de abrir uma issue ou pull request. Para reportes de segurança, siga a orientação específica do repositório, se houver.
+
+## Licença
+
+Este repositório está licenciado sob **MIT**; consulte [LICENSE](LICENSE).
+
+## Patrocínio e apoio
+
+O desenvolvimento aberto exige tempo para manutenção, documentação, testes, revisão de contribuições e resposta a issues. Se este projeto for útil, considere apoiar a continuidade pelo [GitHub Sponsors](https://github.com/sponsors/felipetjmg1-bit). O apoio não representa promessa de funcionalidades, prazo de entrega ou suporte comercial.
+
+[![Patrocinar felipetjmg1-bit](https://img.shields.io/badge/Patrocinar%20no-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
