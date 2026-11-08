@@ -1,3 +1,5 @@
+🇧🇷🧘
+
 ![Status: Experimental](https://img.shields.io/badge/Status-Experimental-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/cristal-quartzo-aurora)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 # Cristal de Quartzo Aurora — API Demonstrativa
