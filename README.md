@@ -3,7 +3,7 @@
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Cristal de Quartzo Aurora" width="100%"></p>
 
 
-![Status: Experimental](https://img.shields.io/badge/Status-Experimental-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/cristal-quartzo-aurora)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: Experimental](https://img.shields.io/badge/Status-API%20demonstrativa-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/cristal-quartzo-aurora)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 # Cristal de Quartzo Aurora — API Demonstrativa
 
