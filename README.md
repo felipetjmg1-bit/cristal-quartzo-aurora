@@ -3,7 +3,7 @@
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Cristal de Quartzo Aurora" width="100%"></p>
 
 
-![Status: Experimental](https://img.shields.io/badge/Status-API%20demonstrativa-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/cristal-quartzo-aurora)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: API demonstrativa](https://img.shields.io/badge/Status-API%20demonstrativa-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/cristal-quartzo-aurora)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 # Cristal de Quartzo Aurora — API Demonstrativa
 
@@ -54,7 +54,7 @@ A rota retorna valores definidos no código; não verifica hardware nem armazena
 
 ## Estado e limitações
 
-**Maturidade indicada:** Experimental.
+**Estado de entrega:** API de simulação local.
 
 - O endpoint de ingestão apenas verifica um prefixo para o nível bank_vault, calcula um hash e imprime uma mensagem; não grava dados. A recuperação também é explicitamente simulada e não retorna os dados enviados.
 - Há aparente inconsistência na proteção de recuperação: o código procura a string bank_vault dentro do data_id, mas os IDs gerados são apenas aurora_data_ seguido do hash; portanto, a verificação de access_key não parece ser acionada para IDs gerados por ingestão.
